@@ -1,11 +1,10 @@
 import React from "react";
 import Products from "./products";
 import img from '../assets/bg.jpg'
-import Child from "./child";
 
 const Home = () => {
   return (
-    <><Child name="Monesh" age="25" /><div className="hero">
+    <div className="hero">
       <div className="card bg-dark text-white border-0">
         <img
           src={img}
@@ -22,8 +21,8 @@ const Home = () => {
         </div>
       </div>
       <Products />
-    </div></>
-  );
+    </div>
+  )
 };
 
 export default Home;
