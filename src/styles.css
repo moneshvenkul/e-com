@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.img img{
+  object-fit: contain;
+  height:4rem;
+  width:4rem;
+  margin-right: 0.25rem;
+  
+  }
